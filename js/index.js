@@ -5,6 +5,7 @@ import {
   minMax,
   noOfTallestCandles,
   plusMinusRatio,
+  digonalDifference,
 } from "./Easy/index.js";
 
 // simpleArraySum();
@@ -17,6 +18,8 @@ import {
 
 // console.log(minSum, maxSum);
 
-console.log(noOfTallestCandles([1, 2, 3, 4, 5, 6, 6, 6]));
+// console.log(noOfTallestCandles([1, 2, 3, 4, 5, 6, 6, 6]));
 
-plusMinusRatio([1, 1, 0, -1, -1]);
+// plusMinusRatio([1, 1, 0, -1, -1]);
+
+console.log(digonalDifference());
