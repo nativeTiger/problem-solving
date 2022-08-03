@@ -6,7 +6,14 @@ import {
   noOfTallestCandles,
   plusMinusRatio,
   digonalDifference,
+  gradingStudents,
 } from "./Easy/index.js";
+
+import {
+  factorialOfNumber,
+  isPowerOfTwo,
+  fibonacci,
+} from "./JsAlgorithm/MathAlgorithm/index.js";
 
 // simpleArraySum();
 
@@ -22,4 +29,11 @@ import {
 
 // plusMinusRatio([1, 1, 0, -1, -1]);
 
-console.log(digonalDifference());
+// console.log(digonalDifference());
+
+// gradingStudents();
+const { fibonacciSeq, fibonacciNumberAtGivenIndex } = fibonacci;
+console.log(fibonacciSeq(7), fibonacciNumberAtGivenIndex(9));
+//console.log(factorialOfNumber(0));
+
+//console.log(isPowerOfTwo(1));

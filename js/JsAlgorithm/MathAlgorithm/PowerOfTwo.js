@@ -6,16 +6,8 @@
  */
 
 const isPowerOfTwo = (number) => {
-  let value;
-  for (let i = 0; i <= 9; i++) {
-    if (number === Math.pow(2, i)) {
-      console.log(number === Math.pow(2, i));
-      value = true;
-    } else {
-      value = false;
-    }
-  }
-  return value;
+  if (number === 0) return false;
+  return Math.ceil(Math.log2(number)) === Math.floor(Math.log2(number));
 };
 
 export default isPowerOfTwo;

@@ -5,3 +5,4 @@ export { default as minMax } from "./minMax.js";
 export { default as noOfTallestCandles } from "./candlesProblem.js";
 export { default as plusMinusRatio } from "./plusMinus.js";
 export { default as digonalDifference } from "./digonalDifference.js";
+export { default as gradingStudents } from "./grading.js";
