@@ -15,6 +15,7 @@ import {
   fibonacci,
 } from "./JsAlgorithm/MathAlgorithm/index.js";
 
+import { linearSearch } from "./JsAlgorithm/SearchAlgorithm/index.js";
 // simpleArraySum();
 
 // console.log(prime.primeArray);
@@ -32,13 +33,15 @@ import {
 // console.log(digonalDifference());
 
 // gradingStudents();
-const { fibonacciSeq, fibonacciNumberAtGivenIndex } = fibonacci;
-console.log(fibonacciSeq(7), fibonacciNumberAtGivenIndex(9));
+// const { fibonacciSeq, fibonacciNumberAtGivenIndex } = fibonacci;
+// console.log(fibonacciSeq(7), fibonacciNumberAtGivenIndex(9));
 //console.log(factorialOfNumber(0));
 
 //console.log(isPowerOfTwo(1));
 
 // factorial
 
-const { factorialOfNumber, recursiveFactorialOfNumber } = factorial;
-console.log(factorialOfNumber(1), recursiveFactorialOfNumber(0));
+// const { factorialOfNumber, recursiveFactorialOfNumber } = factorial;
+// console.log(factorialOfNumber(1), recursiveFactorialOfNumber(0));
+
+console.log(linearSearch(45));
