@@ -10,7 +10,7 @@ import {
 } from "./Easy/index.js";
 
 import {
-  factorialOfNumber,
+  factorial,
   isPowerOfTwo,
   fibonacci,
 } from "./JsAlgorithm/MathAlgorithm/index.js";
@@ -37,3 +37,8 @@ console.log(fibonacciSeq(7), fibonacciNumberAtGivenIndex(9));
 //console.log(factorialOfNumber(0));
 
 //console.log(isPowerOfTwo(1));
+
+// factorial
+
+const { factorialOfNumber, recursiveFactorialOfNumber } = factorial;
+console.log(factorialOfNumber(1), recursiveFactorialOfNumber(0));

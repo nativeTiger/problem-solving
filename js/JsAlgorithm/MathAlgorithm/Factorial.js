@@ -13,4 +13,14 @@ const factorialOfNumber = (number) => {
   }
   return factorial;
 };
-export default factorialOfNumber;
+
+/** Factorial of the number using recursion */
+
+const recursiveFactorialOfNumber = (number) =>
+  number > 0 ? number * recursiveFactorialOfNumber(number - 1) : 1;
+
+const factorial = {
+  factorialOfNumber,
+  recursiveFactorialOfNumber,
+};
+export default factorial;
