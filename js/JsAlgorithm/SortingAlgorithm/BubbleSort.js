@@ -25,3 +25,8 @@ const bubbleSort = (numberArray) => {
 };
 
 export default bubbleSort;
+
+/**
+ * Worst case complexity = 0(n^2)
+ * space complexity = 0(1)
+ */
