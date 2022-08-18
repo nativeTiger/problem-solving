@@ -15,7 +15,7 @@ import {
   fibonacci,
 } from "./JsAlgorithm/MathAlgorithm/index.js";
 
-import { linearSearch } from "./JsAlgorithm/SearchAlgorithm/index.js";
+import { linearSearch, binary } from "./JsAlgorithm/SearchAlgorithm/index.js";
 // simpleArraySum();
 
 // console.log(prime.primeArray);
@@ -44,4 +44,13 @@ import { linearSearch } from "./JsAlgorithm/SearchAlgorithm/index.js";
 // const { factorialOfNumber, recursiveFactorialOfNumber } = factorial;
 // console.log(factorialOfNumber(1), recursiveFactorialOfNumber(0));
 
-console.log(linearSearch(45));
+// console.log(linearSearch(45));
+
+console.log(binary.binarySearch(2, [3, 4, 5, 1, 2, 6]));
+
+// recursive binary search
+
+const numberArray = [3, 4, 5, 1, 2, 6];
+console.log(
+  binary.recursiveBinarySearch(1, numberArray.sort(), 0, numberArray.length)
+);
