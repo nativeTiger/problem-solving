@@ -4,6 +4,7 @@
  * until you've narrowed down the possible locations to just one.
  */
 
+// Binary Search without recursion
 const binarySearch = (targetedNumber, numbersArray) => {
   const sortedNumberArray = numbersArray.sort();
   let low, high, mid;
@@ -22,6 +23,7 @@ const binarySearch = (targetedNumber, numbersArray) => {
   return -1;
 };
 
+// Binary search with recursion
 const recursiveBinarySearch = (targetedNumber, numbersArray, low, high) => {
   if (low <= high) {
     let mid = (low + high) / 2;
@@ -37,3 +39,14 @@ const recursiveBinarySearch = (targetedNumber, numbersArray, low, high) => {
 };
 
 export default { binarySearch, recursiveBinarySearch };
+
+/**
+ * Worst case complexity = 0(log n)
+ * space complexity = 0(1)
+ */
+
+/**
+ * Binary Search Applications:
+ *  In libraries of Java, .Net, C++ STL
+ *  While debugging, the binary search is used to pinpoint the place where the error happens.
+ */
