@@ -17,7 +17,10 @@ import {
 
 import { linearSearch, binary } from "./JsAlgorithm/SearchAlgorithm/index.js";
 
-import { bubbleSort } from "./JsAlgorithm/SortingAlgorithm/index.js";
+import {
+  bubbleSort,
+  insertionSort,
+} from "./JsAlgorithm/SortingAlgorithm/index.js";
 // simpleArraySum();
 
 // console.log(prime.primeArray);
@@ -57,4 +60,7 @@ import { bubbleSort } from "./JsAlgorithm/SortingAlgorithm/index.js";
 //   binary.recursiveBinarySearch(1, numberArray.sort(), 0, numberArray.length)
 // );
 
-console.log(bubbleSort([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
+// console.log(bubbleSort([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
+
+console.log(insertionSort.ascendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
+console.log(insertionSort.descendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
