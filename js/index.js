@@ -21,6 +21,7 @@ import {
   bubbleSort,
   insertionSort,
   mergeSort,
+  quickSort,
 } from "./JsAlgorithm/SortingAlgorithm/index.js";
 // simpleArraySum();
 
@@ -66,4 +67,5 @@ import {
 // console.log(insertionSort.ascendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
 // console.log(insertionSort.descendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
 
-console.log(mergeSort([2, 1, 8]));
+// console.log(mergeSort([2, 1, 8]));
+console.log(quickSort([2, 1, 8]));
