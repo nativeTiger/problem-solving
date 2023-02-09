@@ -20,6 +20,7 @@ import { linearSearch, binary } from "./JsAlgorithm/SearchAlgorithm/index.js";
 import {
   bubbleSort,
   insertionSort,
+  mergeSort,
 } from "./JsAlgorithm/SortingAlgorithm/index.js";
 // simpleArraySum();
 
@@ -62,5 +63,7 @@ import {
 
 // console.log(bubbleSort([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
 
-console.log(insertionSort.ascendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
-console.log(insertionSort.descendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
+// console.log(insertionSort.ascendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
+// console.log(insertionSort.descendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
+
+console.log(mergeSort([2, 1, 8]));
