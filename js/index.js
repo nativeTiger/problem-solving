@@ -16,6 +16,7 @@ import {
   isPallindrome,
   removeDuplicate,
   pattern,
+  countOfdivisibleSumPair,
 } from "./JsAlgorithm/MathAlgorithm/index.js";
 
 import { linearSearch, binary } from "./JsAlgorithm/SearchAlgorithm/index.js";
@@ -75,6 +76,5 @@ import {
 
 // console.log(isPallindrome(234));
 
-console.log(removeDuplicate([1, 2, 3, 2, 1, 3, 4, 5]));
-
-pattern();
+countOfdivisibleSumPair([1, 2, 3, 4, 5, 6]);
+// countOfdivisibleSumPair([6, 3, 1, 3, 2, 6, 1, 2]);
