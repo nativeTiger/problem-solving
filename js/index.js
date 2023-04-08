@@ -13,6 +13,9 @@ import {
   factorial,
   isPowerOfTwo,
   fibonacci,
+  isPallindrome,
+  removeDuplicate,
+  pattern,
 } from "./JsAlgorithm/MathAlgorithm/index.js";
 
 import { linearSearch, binary } from "./JsAlgorithm/SearchAlgorithm/index.js";
@@ -68,4 +71,10 @@ import {
 // console.log(insertionSort.descendingOrder([2, 1, 3, 7, 5, 4, 6, 11, 10, 9]));
 
 // console.log(mergeSort([2, 1, 8]));
-console.log(quickSort([2, 1, 8]));
+// console.log(quickSort([2, 1, 8]));
+
+// console.log(isPallindrome(234));
+
+console.log(removeDuplicate([1, 2, 3, 2, 1, 3, 4, 5]));
+
+pattern();
