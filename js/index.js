@@ -30,6 +30,8 @@ import {
   mergeSort,
   quickSort,
 } from "./JsAlgorithm/SortingAlgorithm/index.js";
+
+import { addition as linkListAddition } from "./medium/index.js";
 // simpleArraySum();
 
 // console.log(prime.primeArray);
@@ -82,8 +84,8 @@ import {
 // countOfdivisibleSumPair([1, 2, 3, 4, 5, 6]);
 // countOfdivisibleSumPair([6, 3, 1, 3, 2, 6, 1, 2]);
 
-arrayRotation([2, 4, 6]);
+// arrayRotation([2, 4, 6]);
 
-// addition();
+linkListAddition();
 
 // console.log(isParanthesisBalanced([")", "{", "(", ")", "}", "]"]));
