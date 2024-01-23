@@ -5,3 +5,6 @@ export { default as isPallindrome } from "./Pallindrome.js";
 export { default as removeDuplicate } from "./RemoveDuplicate.js";
 export { default as pattern } from "./Pattern.js";
 export { default as countOfdivisibleSumPair } from "./DivisibleSumPair.js";
+export { default as arrayRotation } from "./ArrayRotation.js";
+export { default as addition } from "./Addition.js";
+export { default as isParanthesisBalanced } from "./BalanceParanthesis.js";
